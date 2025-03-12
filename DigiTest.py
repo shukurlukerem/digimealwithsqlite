@@ -31,7 +31,7 @@ SECRET_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMjMsInVzZXJuY
 
 import sqlite3
 
-DB_PATH = "MainDatabase.db"  
+DB_PATH = "/MainDatabase.db"  
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
